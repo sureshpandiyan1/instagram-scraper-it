@@ -44,6 +44,7 @@ There's no need to use your login id and password to use Instagram-scarp-it.
    - biography
    - which time you were post it
    - image link
+   - get any reels and images links too
 
 
 ## If you get an Error like this:
