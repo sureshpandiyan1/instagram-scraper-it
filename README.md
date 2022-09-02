@@ -35,7 +35,7 @@ There's no need to use your login id and password to use Instagram-scarp-it.
    - Search the users
    - your real-time profile information (yours)
    - list all Instagram users
-   - list fake users in following
+   - list random fake users list
    - Find hashtags for your post
    - list of active story posts (yours)
    - recent inbox online users (yours)
