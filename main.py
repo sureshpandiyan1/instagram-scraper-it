@@ -61,7 +61,7 @@ def insta_svc():
         'insta id', 'get complete data about the user',
         'search the users', 'profile information (yours)',
         'list all insta users',
-        'list fake users in following',
+        'random fake users list',
         'find similar hashtag', 'list of active story post (yours)',
         'recent inbox online users (yours)', 'list all followings', 'unread message (yours)',
         'get biography', 'analyze your post for growth',
@@ -282,27 +282,6 @@ def unseensmsg():
     newmessagetoday = ds['inbox']['unseen_count']
     print('new messages- %s' % newmessagetoday)
 
-
-# noinspection PyBroadException,PyUnusedLocal
-def list_fakers():
-    count = 0
-    main_followers_list = f'https://i.instagram.com/api/v1/friendships/{FOLLOWING_ID}/following/' \
-                          f'?count={FOLLOWING_COUNTS}&max_id=0 '
-    fol_ll = requests.get(main_followers_list, headers=myheaders)
-    how_many = json.loads(fol_ll.text)
-    count += 1
-    for xy in range(0, FOLLOWING_COUNTS):
-        username_only = how_many['users'][xy]['username']
-        time.sleep(5)
-        the_user_get = 'https://i.instagram.com/api/v1/users/web_profile_info/?username={}'.format(username_only)
-        the_fakers = requests.get(the_user_get)
-        the_s = json.loads(the_fakers.text)
-        the_followers = the_s['data']['user']['edge_followed_by']['count']
-        try:
-            if the_followers < 10000000:
-                print(the_s['data']['user']['username'])
-        except Exception as KeyError:
-            pass
 
 
 def list_all_follwing():
