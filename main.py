@@ -76,6 +76,7 @@ def insta_svc():
             print(x, y)
         mychc = int(input('choose your option => '))
         if mychc == 1:
+            print('enter your username')
             myname = input('')
             getuserid(myname)
         if mychc == 2:
