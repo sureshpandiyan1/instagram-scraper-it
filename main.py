@@ -65,7 +65,7 @@ def insta_svc():
         'find similar hashtag', 'list of active story post (yours)',
         'recent inbox online users (yours)', 'list all followings', 'unread message (yours)',
         'get biography', 'analyze your post for growth',
-        'get anyone post image link for download',
+        'get any reels / image with complete data ',
         'quit'
     ]
     runs = True
@@ -345,8 +345,7 @@ def downloadanyoneimage():
         media_url = f"https://i.instagram.com/api/v1/media/{x}/info/"
         media_check = requests.get(media_url, headers=myheaders)
         tk = json.loads(media_check.text)
-        image_url = tk['items'][0]['image_versions2']['candidates'][0]['url']
-        print(image_url)
+        print(tk)
 
 
 insta_svc()
