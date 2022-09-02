@@ -5,6 +5,7 @@ import time
 
 import requests
 from folsid import FOLLOWING_ID, FOLLOWING_COUNTS
+from followersid import followers_counts, target_insta_id
 
 # WARN YOU BEFORE MESS THIS FILE !!!!!!!
 # => DON'T change anything in this main.py file
@@ -66,6 +67,7 @@ def insta_svc():
         'recent inbox online users (yours)', 'list all followings', 'unread message (yours)',
         'get biography', 'analyze your post for growth',
         'get any reels / image with complete data ',
+        'collect anyone followers list'
         'quit'
     ]
     runs = True
@@ -109,6 +111,8 @@ def insta_svc():
         if mychc == 14:
             downloadanyoneimage()
         if mychc == 15:
+            collect_anyone_followers_list()
+        if mychc == 16:
             runs = False
 
 
@@ -347,6 +351,24 @@ def downloadanyoneimage():
         tk = json.loads(media_check.text)
         print(tk)
 
+def collect_anyone_followers_list():
+    users = []
+    cnt_mx = followers_counts / 12
+    (zx,y) = str(cnt_mx).split('.')
+    print('this process is very slow if you have large amount of followers...')
+    print('just open followers_list.txt,it will collect followers')
+    for y in range(0,12):
+        for x in range(0,int(zx)):
+            maxs = 12 * x
+            follows = f'https://i.instagram.com/api/v1/friendships/{target_insta_id}/followers' \
+                      f'/?count=12&max_id={maxs}&search_surface=follow_list_page'
+            kkk = requests.get(follows,headers=myheaders)
+            opo = json.loads(kkk.text)
+            po = opo['users'][y]['username']
+            users.append(po)
+            with open('followers_list.txt','w') as lxf:
+                for yh in users:
+                    print('%s' % yh,file=lxf)
 
 insta_svc()
 
