@@ -40,6 +40,7 @@ There's no need to use your login id and password to use Instagram-scarp-it.
    - list of active story posts (yours)
    - recent inbox online users (yours)
    - list all following
+   - collect anyone followers list
    - unread message (yours)
    - biography
    - which time you were post it
