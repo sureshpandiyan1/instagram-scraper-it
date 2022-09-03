@@ -23,9 +23,9 @@ There's no need to use your login id and password to use Instagram-scarp-it.
 - no API authentication
 - builtin live status for Instagram-scrap-it
 
-| **Instagram-scarp-it-LIVE**  | good to go!!                  |
+| **Instagram-scarp-it=LIVE**  | good to go!!                  |
 |------------------------------|-------------------------------|
-| **Instagram-scarp-it-DEATH** | time to need a new session id |
+| **Instagram-scarp-it=DEATH** | time to need a new session id |
 
 
 
