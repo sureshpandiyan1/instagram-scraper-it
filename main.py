@@ -16,7 +16,7 @@ from followersid import followers_counts, target_insta_id
 
 # INTRO
 print(
-    'The Instagram-scrap-it can collect information related to the things like post date, images, etc.' + '\n' +
+    'The instagram-scraper can collect information related to the things like post date, images, etc.' + '\n' +
     'Its written code in python that will run faster without delay of the start trouble.' + '\n' +
     'Theres no need to use your login id & password to use Instagram-scarp-it.' + '\n \n' +
     'WELCOME TO Instagram-scrap-it'
@@ -361,10 +361,10 @@ def live_ss():
 def instagramscrapaliveornot():
     try:
         live_ss()
-        print('Instagram-scrap-it=LIVE :)')
+        print('instagram-scraper=LIVE :)')
         print('--------------------------')
     except:
-        print('Instagram-scrap-it=DEATH :(')
+        print('instagram-scraper=DEATH :(')
         print('--------------------------')
 
         
