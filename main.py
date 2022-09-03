@@ -18,8 +18,8 @@ from followersid import followers_counts, target_insta_id
 print(
     'The instagram-scraper can collect information related to the things like post date, images, etc.' + '\n' +
     'Its written code in python that will run faster without delay of the start trouble.' + '\n' +
-    'Theres no need to use your login id & password to use Instagram-scarp-it.' + '\n \n' +
-    'WELCOME TO Instagram-scrap-it'
+    'Theres no need to use your login id & password to use instagram-scraper.' + '\n \n' +
+    'WELCOME TO instagram-scraper'
 )
 
 timz = datetime.datetime.now()
