@@ -66,12 +66,6 @@ There's no need to use your login id and password
      - Instagram is tricky API - give false information too -  ex: users: [], status: 'ok'
 
 **ENJOY THE INSTAGRAM-SCRAPER | ABOVE POINTS JUST FOR COMMON AWARENESS ABOUT INSTAGRAM**
-
-## Warning !!!!!!!
-   - Don't change anything in this main.py file, except import & folsid.py
-   - Don't remove cookies, otherwise won't work
-   - Don't edit this file
-   - Don't play with this code, It's hanging your system
    
 
 ## Disclaimer:
