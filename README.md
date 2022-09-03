@@ -1,6 +1,6 @@
 # Intro
 
-The Instagram-scrap-it can collect information related to the things like post date, images, etc.
+The instagram-scraper can collect information related to the things like post date, images, etc.
  It's written code in python that will run faster without delay of the start trouble. 
 There's no need to use your login id and password to use Instagram-scarp-it.
 
@@ -23,9 +23,9 @@ There's no need to use your login id and password to use Instagram-scarp-it.
 - no API authentication
 - builtin live status for Instagram-scrap-it
 
-| **Instagram-scarp-it=LIVE**  | good to go!!                  |
+| **instagram-scraper=LIVE**  | good to go!!                  |
 |------------------------------|-------------------------------|
-| **Instagram-scarp-it=DEATH** | time to need a new session id |
+| **instagram-scraper=DEATH** | time to need a new session id |
 
 
 
