@@ -39,24 +39,6 @@ myheaders = {
 }
 
 
-def ss_liveornots(dname, msg):
-    with open(dname, 'w') as liveornot:
-        print(msg, file=liveornot)
-
-
-# noinspection PyBroadException
-def live_ss():
-    try:
-        whoismsgm()
-        ss_liveornots('Instagram-scarp-it-LIVE', 'Instagram-scarp-it - LIVE,good to go !! :D')
-    except:
-        ss_liveornots('Instagram-scarp-it=DEATH', 'Instagram-scarp-it - DEATH, '
-                                                  '\n PLZ GET NEW session ID for make me live.:(')
-
-
-live_ss()
-
-
 def insta_svc():
     my_src = [
         'insta id', 'get complete data about the user',
@@ -371,6 +353,21 @@ def collect_anyone_followers_list():
                 for yh in users:
                     print('%s' % yh,file=lxf)
 
+# noinspection PyBroadException
+def live_ss():
+    prof = get_profile_info()
+    return prof
+
+def Instagramscrapaliveornot():
+    try:
+        live_ss()
+        print('Instagram-scrap-it=LIVE :)')
+        print('--------------------------')
+    except:
+        print('Instagram-scrap-it=DEATH :(')
+        print('--------------------------')
+
+Instagramscrapaliveornot()   
 insta_svc()
 
 # ----------------- End -------------
