@@ -358,7 +358,7 @@ def live_ss():
     prof = get_profile_info()
     return prof
 
-def Instagramscrapaliveornot():
+def instagramscrapaliveornot():
     try:
         live_ss()
         print('Instagram-scrap-it=LIVE :)')
@@ -367,7 +367,8 @@ def Instagramscrapaliveornot():
         print('Instagram-scrap-it=DEATH :(')
         print('--------------------------')
 
-Instagramscrapaliveornot()   
+        
+instagramscrapaliveornot()   
 insta_svc()
 
 # ----------------- End -------------
