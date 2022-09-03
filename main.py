@@ -7,19 +7,13 @@ import requests
 from folsid import FOLLOWING_ID, FOLLOWING_COUNTS
 from followersid import followers_counts, target_insta_id
 
-# WARN YOU BEFORE MESS THIS FILE !!!!!!!
-# => DON'T change anything in this main.py file
-# => DON'T remove a cookies, otherwise won't work
-# => DON'T EDIT THIS FILE
-# => DON'T PLAY WITH THIS CODE LIKE A KID, IT'S CAN HANG YOUR SYSTEM
-
 
 # INTRO
 print(
-    'The instagram-scraper can collect information related to the things like post date, images, etc.' + '\n' +
+    'The instagram-scraper-it can collect information related to the things like post date, images, etc.' + '\n' +
     'Its written code in python that will run faster without delay of the start trouble.' + '\n' +
     'Theres no need to use your login id & password to use instagram-scraper.' + '\n \n' +
-    'WELCOME TO instagram-scraper'
+    'WELCOME TO instagram-scraper-it'
 )
 
 timz = datetime.datetime.now()
@@ -361,10 +355,10 @@ def live_ss():
 def instagramscrapaliveornot():
     try:
         live_ss()
-        print('instagram-scraper=LIVE :)')
+        print('instagram-scraper-it=LIVE :)')
         print('--------------------------')
     except:
-        print('instagram-scraper=DEATH :(')
+        print('instagram-scraper-it=DEATH :(')
         print('--------------------------')
 
         
