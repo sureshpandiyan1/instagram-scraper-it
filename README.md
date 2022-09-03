@@ -1,14 +1,14 @@
 # Intro
 
-The instagram-scraper can collect information related to the things like post date, images, etc.
+The instagram-scraper-it can collect information related to the things like post date, images, etc.
  It's written code in python that will run faster without delay of the start trouble. 
 There's no need to use your login id and password
 
 <a href="https://www.buymeacoffee.com/sureshpandiyan" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-## What you need to run instagram-scraper:
+## What you need to run instagram-scraper-it:
     - get your session id on your Instagram & logout
-    - Instagram-scraper will ask you to enter the session ID for work :)
+    - Instagram-scraper-it will ask you to enter the session ID for work :)
 
 ## About Session ID activity:
 - it will stay for more than 5 days for active use, 
@@ -16,16 +16,16 @@ There's no need to use your login id and password
       so, you need to get a new session id
 
 
-## Highlight about instagram-scraper:
+## Highlight about instagram-scraper-it:
 - no need to use sign-in details
 - user-friendly
 - load faster
 - no API authentication
 - builtin live status for Instagram-scrap-it
 
-| **instagram-scraper=LIVE**  | good to go!!                  |
+| **instagram-scraper-it=LIVE**  | good to go!!                  |
 |------------------------------|-------------------------------|
-| **instagram-scraper=DEATH** | time to need a new session id |
+| **instagram-scraper-it=DEATH** | time to need a new session id |
 
 
 
@@ -65,11 +65,11 @@ There's no need to use your login id and password
      - they collect a device id and Infos to figure out what we're doing all the time
      - Instagram is tricky API - give false information too -  ex: users: [], status: 'ok'
 
-**ENJOY THE INSTAGRAM-SCRAPER | ABOVE POINTS JUST FOR COMMON AWARENESS ABOUT INSTAGRAM**
+**ENJOY THE INSTAGRAM-SCRAPER-IT | ABOVE POINTS JUST FOR COMMON AWARENESS ABOUT INSTAGRAM**
    
 
 ## Disclaimer:
-We are not responsible for any criminal activity use of instagram-scraper
+We are not responsible for any criminal activity use of instagram-scraper-it
 
 
 Copyright @ Suresh P 
