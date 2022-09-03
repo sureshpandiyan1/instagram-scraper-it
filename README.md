@@ -75,7 +75,7 @@ There's no need to use your login id and password
    
 
 ## Disclaimer:
-We are not responsible for any criminal activity use of Instagram-scrap-it.
+We are not responsible for any criminal activity use of instagram-scraper
 
 
 Copyright @ Suresh P 
