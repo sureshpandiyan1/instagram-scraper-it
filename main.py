@@ -67,7 +67,7 @@ def insta_svc():
         'recent inbox online users (yours)', 'list all followings', 'unread message (yours)',
         'get biography', 'analyze your post for growth',
         'get any reels / image with complete data ',
-        'collect anyone followers list'
+        'collect anyone followers list',
         'quit'
     ]
     runs = True
@@ -300,7 +300,7 @@ def list_all_follwing():
         for x in spt_how:
             if 'username' in x:
                 usernamess.append(x)
-                with open('followers_list.txt', 'w') as k:
+                with open('following_list.txt', 'w') as k:
                     for lX in usernamess:
                         (first, second) = lX.split(':')
                         print('%s' % second, file=k)
