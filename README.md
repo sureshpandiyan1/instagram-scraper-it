@@ -8,7 +8,7 @@ There's no need to use your login id and password
 
 ## What you need to run instagram-scraper:
     - get your session id on your Instagram & logout
-    - Instagram-scrap-it will ask you to enter the session ID for work :)
+    - Instagram-scraper will ask you to enter the session ID for work :)
 
 ## About Session ID activity:
 - it will stay for more than 5 days for active use, 
@@ -65,7 +65,7 @@ There's no need to use your login id and password
      - they collect a device id and Infos to figure out what we're doing all the time
      - Instagram is tricky API - give false information too -  ex: users: [], status: 'ok'
 
-**ENJOY THE INSTAGRAM-SCRAP-IT | ABOVE POINTS JUST FOR COMMON AWARENESS ABOUT INSTAGRAM**
+**ENJOY THE INSTAGRAM-SCRAPER | ABOVE POINTS JUST FOR COMMON AWARENESS ABOUT INSTAGRAM**
 
 ## Warning !!!!!!!
    - Don't change anything in this main.py file, except import & folsid.py
