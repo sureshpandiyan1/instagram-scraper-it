@@ -6,6 +6,9 @@ There's no need to use your login id and password
 
 Any stars ⭐ or donations would be appreciated, if you like this instagram-scraper-it:) 
 
+![instagram-scraper-it](https://user-images.githubusercontent.com/112636345/188299393-26ead86e-0955-4a09-8bf9-cdf60fedb131.jpg)
+
+
 ## What you need to run instagram-scraper-it:
     - get your session id on your Instagram & logout
     - Instagram-scraper-it will ask you to enter the session ID for work :)
