@@ -1,8 +1,7 @@
 # Intro
 
 The instagram-scraper-it can collect information related to the things like post date, images, etc.
- It's written code in python that will run faster without delay of the start trouble. 
-There's no need to use your login id and password
+ It's written code in python that will run faster without delay of the start trouble.
 
 Any stars ⭐ or donations would be appreciated, if you like this instagram-scraper-it:) 
 
