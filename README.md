@@ -8,15 +8,20 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 ![instagram-scraper-it](https://user-images.githubusercontent.com/112636345/188299393-26ead86e-0955-4a09-8bf9-cdf60fedb131.jpg)
 
-
-## What you need to run instagram-scraper-it:
-    - get your session id on your Instagram & logout
-    - Instagram-scraper-it will ask you to enter the session ID for work :)
-
+  
 ## How to run? 
 
-` python main.py `
+## STEP 1:
+   - just open auth.py & place your username and password
+   - run the Ibot.py to get your current session id
+    
+    `python3 Ibot.py`
 
+## STEP 2:
+    once you get a session id, run the main file and follow the instructions
+    
+    `python3 main.py`
+   
 
 ## About Session ID activity:
 - it will stay for more than 5 days for active use, 
@@ -28,7 +33,6 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 - no need to use sign-in details
 - user-friendly
 - load faster
-- no API authentication
 - builtin live status for Instagram-scrap-it
 
 | **instagram-scraper-it=LIVE**  | good to go!!                  |
