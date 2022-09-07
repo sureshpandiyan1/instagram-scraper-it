@@ -9,6 +9,10 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 ![instagram-scraper-it](https://user-images.githubusercontent.com/112636345/188299393-26ead86e-0955-4a09-8bf9-cdf60fedb131.jpg)
 
+## How Instagram-scraper-it works ?
+
+![workflow-i-s-t](https://user-images.githubusercontent.com/112636345/188807597-cae1d087-03f1-4f44-9f64-d310c8d75bda.jpg)
+
 
 ## How to run? 
 
@@ -113,5 +117,6 @@ For more information, please refer to <https://unlicense.org>
 ## Disclaimer:
 We are not responsible for any criminal activity use of instagram-scraper-it
 
+## Copyright
 
 Copyright @ Suresh P 
