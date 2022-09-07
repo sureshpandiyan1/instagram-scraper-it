@@ -1,0 +1,29 @@
+{
+  "name": "instagram-scraper-it",
+  "version": "1.0.0",
+  "description": "The instagram-scraper-it can collect information related to the things like post,followers,images,following,user data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sureshpandiyan1/instagram-scraper-it.git"
+  },
+  "keywords": [
+    "instagram",
+    "scrapper",
+    "instagram-cilent",
+    "instagram-story",
+    "webscraper",
+    "user",
+    "scraping",
+    "likers"
+  ],
+  "author": "suresh p",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/sureshpandiyan1/instagram-scraper-it/issues"
+  },
+  "homepage": "https://github.com/sureshpandiyan1/instagram-scraper-it#readme"
+}
