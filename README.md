@@ -14,12 +14,12 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
    - just open auth.py & place your username and password
    - run the Ibot.py to get your current session id
     
-    `python3 Ibot.py`
+    `python Ibot.py`
 
 ## STEP 2:
-    once you get a session id, run the main file and follow the instructions
+   - once you get a session id, run the main file and follow the instructions
     
-    `python3 main.py`
+    `python main.py`
    
 
 ## About Session ID activity:
