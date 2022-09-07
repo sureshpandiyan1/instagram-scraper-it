@@ -5,9 +5,11 @@ The instagram-scraper-it can collect information related to the things like post
 
 Any stars ⭐ or donations would be appreciated, if you like this instagram-scraper-it:) 
 
+**NO MORE WORRY ABOUT SESSION ID ANYMORE !!**
+
 ![instagram-scraper-it](https://user-images.githubusercontent.com/112636345/188299393-26ead86e-0955-4a09-8bf9-cdf60fedb131.jpg)
 
-  
+
 ## How to run? 
 
 ## STEP 1:
