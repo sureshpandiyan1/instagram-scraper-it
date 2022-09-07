@@ -119,4 +119,4 @@ We are not responsible for any criminal activity use of instagram-scraper-it and
 
 ## Copyright
 
-Copyright @ Suresh P 
+Copyright @ Suresh P | All Rights Reserved
