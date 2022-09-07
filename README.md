@@ -35,7 +35,6 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 
 ## Highlight about instagram-scraper-it:
-- no need to use sign-in details
 - user-friendly
 - load faster
 - builtin live status for Instagram-scrap-it
