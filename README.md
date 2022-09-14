@@ -82,6 +82,7 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
      - don't ever give plenty of requests like 100, Instagram thinks you like a spam bot
      - they collect a device id and Infos to figure out what we're doing all the time
      - Instagram is tricky API - give false information too -  ex: users: [], status: 'ok'
+     - suppose if instagram makes your account blocked too, just follow the instructions to solve the problem of your signin :)
 
 **ENJOY THE INSTAGRAM-SCRAPER-IT | ABOVE POINTS JUST FOR COMMON AWARENESS ABOUT INSTAGRAM**
    
