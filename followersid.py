@@ -2,10 +2,12 @@
 # EDITABLE FILE
 
 
-
+# NOTE
+ # EVERY VALUES SHOULD BE INTEGER, BUT NOT A STRING !!!
+  
 # EXAMPLE:
 # followers_counts = 100  # enter the followers counts
-# target_insta_id = '1234567890'   # enter target insta user id
+# target_insta_id = 1234567890   # enter target insta user id
 
 followers_counts = '{}'  # enter the followers counts
 target_insta_id = '{}'   # enter target insta user id
