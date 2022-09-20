@@ -67,12 +67,12 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 ## If you get an Error like this:
 
-| **ERROR**                         | **SOLUTION**                                                                          |
-|-----------------------------------|---------------------------------------------------------------------------------------|
-| **check your point or challenge** | just go to your Instagram profile and verify the mobile number                        |
-| **connection error**              | you did not turn on your internet connection                                              | 
+| **ERROR**                         | **SOLUTION**                                                                                 |
+|-----------------------------------|----------------------------------------------------------------------------------------------|
+| **check your point or challenge** | just go to your Instagram profile and verify the mobile number                               |
+| **connection error**              | you did not turn on your internet connection                                                 | 
 | **JSON decode error**             | maybe the session id is expired, simply go to your Instagram id and pick up a new session id |
-| **too many requests**             | just try after a few mins or after some hours                                           |
+| **too many requests**             | just try after a few mins or after some hours                                                |
 
 
 ## COMMON - you need to be aware of Instagram [my opinion]
