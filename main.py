@@ -369,7 +369,7 @@ def get_captions():
         help = [get_first_ids()]
         file = open('collect_ids','w')
         file.write(get_first_ids()+ "\n")
-        for i in range(0,10):
+        for i in range(0,len(help)):
                 urls = f"https://i.instagram.com/api/v1/feed/user/{instaid}/?count=12&max_id={help[i]}"
                 okey = requests.get(urls, headers=myheaders)
                 tk = json.loads(okey.text)
