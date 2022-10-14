@@ -7,6 +7,7 @@ import requests
 from folsid import FOLLOWING_ID, FOLLOWING_COUNTS
 from followersid import followers_counts, target_insta_id
 
+instaid =        #place your insta id here
 
 # INTRO
 print(
@@ -90,8 +91,10 @@ def insta_svc():
         if mychc == 14:
             downloadanyoneimage()
         if mychc == 15:
+            print("place your instaid in main.py before you continue this")
             collect_anyone_followers_list()
         if mychc == 16:
+            print("place your instaid in main.py before you continue this")
             get_captions()
         if mychc == 17:
             collect_all_captions()
@@ -354,7 +357,7 @@ def collect_anyone_followers_list():
                     print('%s' % yh,file=lxf)
 
 def get_first_ids():
-    url = "https://i.instagram.com/api/v1/feed/user/41370403846/?count=12"
+    url = f"https://i.instagram.com/api/v1/feed/user/{instaid}/?count=12"
     okey = requests.get(url, headers=myheaders)
     tk = json.loads(okey.text)
     zd = tk['next_max_id']
@@ -367,8 +370,7 @@ def get_captions():
         file = open('collect_ids','w')
         file.write(get_first_ids()+ "\n")
         for i in range(0,10):
-                urls = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={help[i]}"
-                # urls = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={help[i]}"
+                urls = f"https://i.instagram.com/api/v1/feed/user/{instaid}/?count=12&max_id={help[i]}"
                 okey = requests.get(urls, headers=myheaders)
                 tk = json.loads(okey.text)
                 i = tk['next_max_id']
@@ -383,11 +385,11 @@ def collect_all_captions():
         captions_get = captions_get.readlines()
         for x in captions_get:
             x = x.strip()
-            url = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={x}"
+            url = f"https://i.instagram.com/api/v1/feed/user/{instaid}/?count=12&max_id={x}"
             okey = requests.get(url, headers=myheaders)
             tk = json.loads(okey.text)
             for y in range(0,len(tk['items'])):
-                url = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={x}"
+                url = f"https://i.instagram.com/api/v1/feed/user/{instaid}/?count=12&max_id={x}"
                 okey = requests.get(url, headers=myheaders)
                 tk = json.loads(okey.text)
                 try:
