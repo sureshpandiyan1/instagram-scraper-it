@@ -13,7 +13,9 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 ![workflow-i-s-t](https://user-images.githubusercontent.com/112636345/188807597-cae1d087-03f1-4f44-9f64-d310c8d75bda.jpg)
 
-
+## newly added (user recommends)
+ - collect all post captions
+ 
 ## How to run? 
 
 ## STEP 1:
