@@ -44,6 +44,8 @@ def insta_svc():
         'get biography', 'analyze your post for growth',
         'get any reels / image with complete data ',
         'collect anyone followers list',
+        'collect all post ids',
+        'collect all your post captions',
         'quit'
     ]
     runs = True
@@ -89,6 +91,10 @@ def insta_svc():
             downloadanyoneimage()
         if mychc == 15:
             collect_anyone_followers_list()
+        if mychc == 16:
+            get_captions()
+        if mychc == 17:
+            collect_all_captions()
         if mychc == 16:
             runs = False
 
@@ -347,6 +353,50 @@ def collect_anyone_followers_list():
                 for yh in users:
                     print('%s' % yh,file=lxf)
 
+def get_first_ids():
+    url = "https://i.instagram.com/api/v1/feed/user/41370403846/?count=12"
+    okey = requests.get(url, headers=myheaders)
+    tk = json.loads(okey.text)
+    zd = tk['next_max_id']
+    return zd
+
+
+def get_captions():
+    try:
+        help = [get_first_ids()]
+        file = open('collect_ids','w')
+        file.write(get_first_ids()+ "\n")
+        for i in range(0,10):
+                urls = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={help[i]}"
+                # urls = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={help[i]}"
+                okey = requests.get(urls, headers=myheaders)
+                tk = json.loads(okey.text)
+                i = tk['next_max_id']
+                help.append(i)
+                file.write(i+ "\n")
+    except:
+        pass
+
+    
+def collect_all_captions():
+    with open("collect_ids","r") as captions_get:
+        captions_get = captions_get.readlines()
+        for x in captions_get:
+            x = x.strip()
+            url = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={x}"
+            okey = requests.get(url, headers=myheaders)
+            tk = json.loads(okey.text)
+            for y in range(0,len(tk['items'])):
+                url = f"https://i.instagram.com/api/v1/feed/user/41370403846/?count=12&max_id={x}"
+                okey = requests.get(url, headers=myheaders)
+                tk = json.loads(okey.text)
+                try:
+                    print(tk['items'][y]['caption']['text'])
+                    print(tk['items'][y]['accessibility_caption'])
+                except:
+                    pass
+                
+                
 # noinspection PyBroadException
 def live_ss():
     prof = get_profile_info()
@@ -361,6 +411,7 @@ def instagramscrapaliveornot():
         print('instagram-scraper-it=DEATH :(')
         print('--------------------------')
 
+        
         
 instagramscrapaliveornot()   
 insta_svc()
