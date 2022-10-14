@@ -98,7 +98,7 @@ def insta_svc():
             get_captions()
         if mychc == 17:
             collect_all_captions()
-        if mychc == 16:
+        if mychc == 18:
             runs = False
 
 
