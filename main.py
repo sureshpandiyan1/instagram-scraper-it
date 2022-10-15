@@ -95,6 +95,7 @@ def insta_svc():
             collect_anyone_followers_list()
         if mychc == 16:
             print("HINT: place your instaid in main.py before you continue this")
+            print("wait for few minutes...")
             get_captions()
             print("succesfully created a collected ids..")
         if mychc == 17:
