@@ -399,6 +399,8 @@ def collect_all_captions():
                     print(tk['items'][y]['accessibility_caption'])
                 except:
                     pass
+                finally:
+                    print(tk['items'][y])
                 
                 
 # noinspection PyBroadException
