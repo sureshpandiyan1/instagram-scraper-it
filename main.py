@@ -92,11 +92,11 @@ def insta_svc():
         if mychc == 14:
             downloadanyoneimage()
         if mychc == 15:
-            print("place your instaid in main.py before you continue this")
             collect_anyone_followers_list()
         if mychc == 16:
-            print("place your instaid in main.py before you continue this")
+            print("HINT: place your instaid in main.py before you continue this")
             get_captions()
+            print("succesfully created a collected ids..")
         if mychc == 17:
             collect_all_captions()
         if mychc == 18:
