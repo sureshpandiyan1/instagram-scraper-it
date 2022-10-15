@@ -7,7 +7,8 @@ import requests
 from folsid import FOLLOWING_ID, FOLLOWING_COUNTS
 from followersid import followers_counts, target_insta_id
 
-instaid =        #place your insta id here
+# only  uncomment this option if you use for option 16 and 17 for collect a post captions
+# instaid =        #place your insta id here
 
 # INTRO
 print(
@@ -369,7 +370,7 @@ def get_captions():
         help = [get_first_ids()]
         file = open('collect_ids','w')
         file.write(get_first_ids()+ "\n")
-        for i in range(0,len(help)):
+        for i in range(0,100):
                 urls = f"https://i.instagram.com/api/v1/feed/user/{instaid}/?count=12&max_id={help[i]}"
                 okey = requests.get(urls, headers=myheaders)
                 tk = json.loads(okey.text)
