@@ -10,11 +10,14 @@ passwd =  passwd
 
 
 d = DesiredCapabilities.CHROME
-d['loggingPrefs'] = { 'performance':'ALL' }
+d['goog:loggingPrefs'] = { 'performance':'ALL' }
+ # to open the chromebrowser 
 chrome_options = Options()
 chrome_options.add_argument("--headless")
-chrome_options.add_experimental_option('w3c', False)
+chrome_options.add_experimental_option('w3c', True)
+chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(desired_capabilities=d, options=chrome_options)
+
 
 
 driver.get("https://www.instagram.com/")
@@ -32,6 +35,7 @@ with open('session.txt','w') as kz:
             m = m.split('Secure')
             p = str(m).split('=')
             print(p,file=kz)
+            print(p)
 
 pz = []
 with open('session.txt','r') as l:
