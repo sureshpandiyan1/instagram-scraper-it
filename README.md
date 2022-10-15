@@ -7,7 +7,8 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 **NO MORE WORRY ABOUT SESSION ID ANYMORE !!**
 
-![instagram-scraper-it](https://user-images.githubusercontent.com/112636345/188299393-26ead86e-0955-4a09-8bf9-cdf60fedb131.jpg)
+![instagram_scraper_it_upated](https://user-images.githubusercontent.com/112636345/195976765-b4da7ecc-bbb0-40aa-a1f9-d0abcbc912ab.jpg)
+
 
 ## How Instagram-scraper-it works ?
 
