@@ -32,9 +32,8 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
    
 ## you can install package with npm too
 
-   - npm i instagram-scraper-it
+    npm i instagram-scraper-it
 
-   ## kindly copy chromedriver.exe from repo once you install via npm
 
 
 ## About Session ID activity:
