@@ -1,11 +1,12 @@
-<div align="center">
+<div align="left">
 <h1> instagram-scraper-it </h1>
 </div>
-<div align="center">
+<div align="left">
 <a href="https://github.com/sureshpandiyan1/instagram-scraper-it/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/sureshpandiyan1/instagram-scraper-it"></a>
 <a href="https://github.com/sureshpandiyan1/instagram-scraper-it/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/sureshpandiyan1/instagram-scraper-it"></a>
 <a href="https://github.com/sureshpandiyan1/instagram-scraper-it/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/sureshpandiyan1/instagram-scraper-it"></a>
-<a href="https://github.com/sureshpandiyan1/instagram-scraper-it/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/sureshpandiyan1/instagram-scraper-it"></a>
+<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sureshpandiyan1/instagram-scraper-it">
+<img alt="NPM" src="https://img.shields.io/npm/l/instagram-scraper-it?color=green">
 <img alt="npm" src="https://img.shields.io/npm/dt/instagram-scraper-it?label=npm-downloads">
 </div>
 
