@@ -13,10 +13,6 @@
 
 <br>
 
-
-
-# Intro
-
 The instagram-scraper-it can collect information related to the things like post date, images, etc.
  It's written code in python that will run faster without delay of the start trouble.
 
