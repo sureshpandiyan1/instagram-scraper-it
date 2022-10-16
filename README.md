@@ -30,6 +30,12 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
     
     `python main.py`
    
+## you can install package with npm too
+
+   - npm i instagram-scraper-it
+
+   ## kindly copy chromedriver.exe from repo once you install via npm
+
 
 ## About Session ID activity:
 - it will stay for more than 5 days for active use, 
