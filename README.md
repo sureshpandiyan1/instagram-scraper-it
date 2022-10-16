@@ -8,7 +8,7 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sureshpandiyan1/instagram-scraper-it">
 <img alt="NPM" src="https://img.shields.io/npm/l/instagram-scraper-it?color=green">
 <img alt="npm" src="https://img.shields.io/npm/dt/instagram-scraper-it?label=npm-downloads">
-<a href="#dnts"><img alt="donate" src="https://img.shields.io/badge/donate-red"></a>
+<a href="#dnts"><img alt="donate" src="https://img.shields.io/badge/donate-orange"></a>
 </div>
 
 <br>
