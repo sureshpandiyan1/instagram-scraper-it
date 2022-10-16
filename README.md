@@ -8,6 +8,7 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sureshpandiyan1/instagram-scraper-it">
 <img alt="NPM" src="https://img.shields.io/npm/l/instagram-scraper-it?color=green">
 <img alt="npm" src="https://img.shields.io/npm/dt/instagram-scraper-it?label=npm-downloads">
+<a href="#dnts"><img alt="donate" src="https://img.shields.io/badge/donate-red"></a>
 </div>
 
 <br>
@@ -140,8 +141,10 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <https://unlicense.org>
 
 ## Donations
-
+<div id="dnts">
 <a href="https://www.buymeacoffee.com/sureshpandiyan" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 180px !important;" ></a>
+</div>
+
 
 
 ## Disclaimer:
