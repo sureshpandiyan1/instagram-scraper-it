@@ -34,7 +34,6 @@ myheaders = {
     "Cookie": permanent_cookie,
 }
 
-
 def insta_svc():
     my_src = [
         'insta id', 'get complete data about the user',
@@ -45,7 +44,9 @@ def insta_svc():
         'recent inbox online users (yours)', 'list all followings', 'unread message (yours)',
         'get biography', 'analyze your post for growth',
         'get any reels / image with complete data ',
-        'collect anyone followers list',
+        'collect anyone followers list, first run this things, next run 16',
+        '15 1- collect followers_tokens_ after you run this one, next run 17',
+        '15 2- show all followers data',
         'collect all post ids',
         'collect all your post captions',
         'quit'
@@ -94,14 +95,86 @@ def insta_svc():
         if mychc == 15:
             collect_anyone_followers_list()
         if mychc == 16:
+            collect_followers()
+        if mychc == 17:
+            kk()
+        if mychc == 18:
             print("HINT: place your instaid in main.py before you continue this")
             print("wait for few minutes...")
             get_captions()
             print("succesfully created a collected ids..")
-        if mychc == 17:
+        if mychc == 19:
             collect_all_captions()
-        if mychc == 18:
+        if mychc == 20:
             runs = False
+            
+# def insta_svc():
+#     my_src = [
+#         'insta id', 'get complete data about the user',
+#         'search the users', 'profile information (yours)',
+#         'list all insta users',
+#         'random fake users list',
+#         'find similar hashtag', 'list of active story post (yours)',
+#         'recent inbox online users (yours)', 'list all followings', 'unread message (yours)',
+#         'get biography', 'analyze your post for growth',
+#         'get any reels / image with complete data ',
+#         'collect anyone followers list',
+#         'collect all post ids',
+#         'collect all your post captions',
+#         'quit'
+#     ]
+#     runs = True
+#     while runs:
+#         for x, y in enumerate(my_src, start=1):
+#             print(x, y)
+#         mychc = int(input('choose your option => '))
+#         if mychc == 1:
+#             print('enter your username')
+#             myname = input('')
+#             getuserid(myname)
+#         if mychc == 2:
+#             print('enter your username => ')
+#             myname = input('')
+#             getinfo(myname)
+#             followedbywho(myname, getinfo(myname))
+#         if mychc == 3:
+#             k = input('')
+#             usermatch(k)
+#         if mychc == 4:
+#             print('Note - only avaliable if you login your insta id in your browser')
+#             get_profile_info()
+#         if mychc == 5:
+#             listallusers()
+#         if mychc == 6:
+#             listallfakeusers()
+#         if mychc == 7:
+#             similarhashtag()
+#         if mychc == 8:
+#             print('Note - only avaliable if you login your insta id in your browser')
+#             trays()
+#         if mychc == 9:
+#             whoismsgm()
+#         if mychc == 10:
+#             list_all_follwing()
+#         if mychc == 11:
+#             unseensmsg()
+#         if mychc == 12:
+#             biography()
+#         if mychc == 13:
+#             checkourcompetitor()
+#         if mychc == 14:
+#             downloadanyoneimage()
+#         if mychc == 15:
+#             collect_anyone_followers_list()
+#         if mychc == 16:
+#             print("HINT: place your instaid in main.py before you continue this")
+#             print("wait for few minutes...")
+#             get_captions()
+#             print("succesfully created a collected ids..")
+#         if mychc == 17:
+#             collect_all_captions()
+#         if mychc == 18:
+#             runs = False
 
 
 def getinfo(names):
@@ -339,6 +412,7 @@ def downloadanyoneimage():
         tk = json.loads(media_check.text)
         print(tk)
 
+# it's not work due to instagram changes | 
 def collect_anyone_followers_list():
     users = []
     cnt_mx = followers_counts / 12
@@ -358,6 +432,53 @@ def collect_anyone_followers_list():
                 for yh in users:
                     print('%s' % yh,file=lxf)
 
+                    
+def get_first_is():
+    url = f"https://i.instagram.com/api/v1/friendships/{target_insta_id}/followers/?count=12&search_surface=follow_list_page"
+    okey = requests.get(url, headers=myheaders)
+    tk = json.loads(okey.text)
+    zd = tk['next_max_id']
+    return zd
+
+
+def collect_anyone_followers_list():
+        help = [get_first_is()]
+        file = open('collect_new_ids.txt','w')
+        file.write(get_first_is()+ "\n")
+        for i in range(0,100):
+            ursl = f'https://i.instagram.com/api/v1/friendships/{target_insta_id}/followers' \
+                    f'/?count=12&max_id={help[i]}&search_surface=follow_list_page'
+            okey = requests.get(ursl, headers=myheaders)
+            tk = json.loads(okey.text)
+            i = tk['next_max_id']
+            file.write(tk['next_max_id'] + "\n")
+            help.append(i)
+
+
+def collect_followers():
+    storenumber = []
+    with open("collect_new_ids.txt","r") as isds:
+        # print(isds.read())
+        storenumber.append(isds.read().split('\n'))
+        urlss = []
+        for y in storenumber[0]:
+            str = f"https://i.instagram.com/api/v1/friendships/{target_insta_id}" \
+                    f"/followers/?count=12&max_id={y}&search_surface=follow_list_page"
+            urlss.append(str)
+        with open('followers_urls.txt','w') as m:
+            for y in urlss:
+                print(y.strip(), file=m)
+
+
+def kk():
+    with open("followers_urls.txt","r") as km:
+            for y in km.read().split('\n'):
+                okey = requests.get(y, headers=myheaders)
+                tk = json.loads(okey.text)
+                print(tk['users'])
+                
+                
+                
 def get_first_ids():
     url = f"https://i.instagram.com/api/v1/feed/user/{instaid}/?count=12"
     okey = requests.get(url, headers=myheaders)
