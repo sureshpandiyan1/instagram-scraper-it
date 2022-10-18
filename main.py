@@ -44,9 +44,9 @@ def insta_svc():
         'recent inbox online users (yours)', 'list all followings', 'unread message (yours)',
         'get biography', 'analyze your post for growth',
         'get any reels / image with complete data ',
-        'collect anyone followers list, first run this things, next run 16',
-        '15 1- collect followers_tokens_ after you run this one, next run 17',
-        '15 2- show all followers data',
+        '15 collect anyone followers list, first run this things, next choose option 16',
+        '16 collect followers_tokens_ after you run this one, next choose option 17 - finally get followers data',
+        '17 show all followers data',
         'collect all post ids',
         'collect all your post captions',
         'quit'
