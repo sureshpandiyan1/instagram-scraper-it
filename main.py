@@ -412,25 +412,25 @@ def downloadanyoneimage():
         tk = json.loads(media_check.text)
         print(tk)
 
-# it's not work due to instagram changes | 
-def collect_anyone_followers_list():
-    users = []
-    cnt_mx = followers_counts / 12
-    (zx,y) = str(cnt_mx).split('.')
-    print('this process is very slow if you have large amount of followers...')
-    print('just open followers_list.txt,it will collect followers')
-    for y in range(0,12):
-        for x in range(0,int(zx)):
-            maxs = 12 * x
-            follows = f'https://i.instagram.com/api/v1/friendships/{target_insta_id}/followers' \
-                      f'/?count=12&max_id={maxs}&search_surface=follow_list_page'
-            kkk = requests.get(follows,headers=myheaders)
-            opo = json.loads(kkk.text)
-            po = opo['users'][y]['username']
-            users.append(po)
-            with open('followers_list.txt','w') as lxf:
-                for yh in users:
-                    print('%s' % yh,file=lxf)
+# it's not work due to instagram api changes | 
+# def collect_anyone_followers_list():
+#     users = []
+#     cnt_mx = followers_counts / 12
+#     (zx,y) = str(cnt_mx).split('.')
+#     print('this process is very slow if you have large amount of followers...')
+#     print('just open followers_list.txt,it will collect followers')
+#     for y in range(0,12):
+#         for x in range(0,int(zx)):
+#             maxs = 12 * x
+#             follows = f'https://i.instagram.com/api/v1/friendships/{target_insta_id}/followers' \
+#                       f'/?count=12&max_id={maxs}&search_surface=follow_list_page'
+#             kkk = requests.get(follows,headers=myheaders)
+#             opo = json.loads(kkk.text)
+#             po = opo['users'][y]['username']
+#             users.append(po)
+#             with open('followers_list.txt','w') as lxf:
+#                 for yh in users:
+#                     print('%s' % yh,file=lxf)
 
                     
 def get_first_is():
