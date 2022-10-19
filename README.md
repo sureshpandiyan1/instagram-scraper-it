@@ -152,8 +152,8 @@ For more information, please refer to <https://unlicense.org>
 
 
 ## Disclaimer:
-We are not responsible for any criminal activity use of instagram-scraper-it and not collect any of your personal information like signin details
-think twice before use this instagram-scraper-it, i am not responsible for any loss
+We are not responsible for any criminal activity use of instagram-scraper-it and not collect any of your personal information like signin details.
+Think twice before use instagram-scraper-it, i am not responsible for any loss
 
 ## Copyright
 
