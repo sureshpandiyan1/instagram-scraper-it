@@ -18,6 +18,8 @@ The instagram-scraper-it can collect information related to the things like post
 
 Any stars ⭐ or donations would be appreciated, if you like this instagram-scraper-it :) 
 
+
+
 **NO MORE WORRY ABOUT SESSION ID ANYMORE !!**
 
 ![instagram_scraper_it_upated](https://user-images.githubusercontent.com/112636345/195976765-b4da7ecc-bbb0-40aa-a1f9-d0abcbc912ab.jpg)
@@ -116,7 +118,8 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 **ENJOY THE INSTAGRAM-SCRAPER-IT | ABOVE POINTS JUST FOR COMMON AWARENESS ABOUT INSTAGRAM**
    
-
+## read this too
+ **please read caution.pdf file too**
 ## License
 
 This is free and unencumbered software released into the public domain.
