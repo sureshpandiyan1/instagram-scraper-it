@@ -8,7 +8,6 @@
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/sureshpandiyan1/instagram-scraper-it">
 <img alt="NPM" src="https://img.shields.io/npm/l/instagram-scraper-it?color=green">
 <img alt="npm" src="https://img.shields.io/npm/dt/instagram-scraper-it?label=npm-downloads">
-<a href="#dnts"><img alt="donate" src="https://img.shields.io/badge/donate-orange"></a>
 </div>
 
 <br>
@@ -146,10 +145,6 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>
-
-## Support Me
-
-<a id="dnts" href='https://ko-fi.com/C0C7FULK9' target='_blank'><img height='70' style='border:0px;height:70px;' src='https://storage.ko-fi.com/cdn/brandasset/kofi_s_tag_white.png?' border='0' alt='support me on ko-fi.com' /></a>
 
 
 
