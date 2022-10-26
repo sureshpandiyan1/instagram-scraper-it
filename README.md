@@ -43,7 +43,7 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 ## How to run? 
 
 ## STEP 1:
-   - just open auth.py & place your username and password
+   - just open auth.py & place your username & password
    - run the Ibot.py to get your current session id
     
     `python Ibot.py`
