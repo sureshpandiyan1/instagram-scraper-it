@@ -106,6 +106,23 @@ Any stars ⭐ or donations would be appreciated, if you like this instagram-scra
 
 
 
+
+##  FAQ
+     How to scrap a data without loss your own insta account ?
+     highly request you to use a well-qualified vpn & create a fake accounts to scrap a information
+     
+     why my session id is expired ?
+     instagram session id is not a static one, it will change very randomly
+     
+     can i hack a instagram account using instagram-scraper-it ?
+     Sorry, those types of things not exists in instagram-scraper-it. just for scrap a data only !!
+     
+     how instagram banned particular account due to scrap the data?
+     first, they will identify how many requests comes from your ip address, if there is too many requests, it's really look like a bot.
+     just use a fake insta accounts..
+     
+
+
 ## COMMON - you need to be aware of Instagram [my opinion]
      - if your main profile URL gets blocked, just leave it for 24 or 48 hours
      - dont ever  use instagram-scraper-it more than 5 times a days,
