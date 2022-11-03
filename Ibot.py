@@ -22,9 +22,9 @@ driver = webdriver.Chrome(desired_capabilities=d, options=chrome_options)
 
 driver.get("https://www.instagram.com/")
 time.sleep(5)
-driver.find_element(By.XPATH, "/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input").send_keys(userid)
-driver.find_element(By.XPATH, "/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input").send_keys(passwd)
-driver.find_element(By.XPATH, "/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button").click()
+driver.find_element(By.CSS_SELECTOR, "div._ab32:nth-child(1) > div:nth-child(1) > label:nth-child(1) > input:nth-child(2)").send_keys(userid)
+driver.find_element(By.CSS_SELECTOR, "div._ab32:nth-child(2) > div:nth-child(1) > label:nth-child(1) > input:nth-child(2)").send_keys(passwd)
+driver.find_element(By.CSS_SELECTOR, "div._abak:nth-child(3)").click()
 
 time.sleep(10)
 s = driver.get_log("performance")
