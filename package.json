@@ -1,6 +1,6 @@
 {
   "name": "instagram-scraper-it",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "The instagram-scraper-it can collect information related to the things like post,followers,images,following,user data",
   "main": "index.js",
   "scripts": {
