@@ -18,7 +18,7 @@ The instagram-scraper-it can collect information related to the things like post
 
 Any stars ⭐ or donations would be appreciated, if you like this instagram-scraper-it :) 
 
-
+<a href="https://www.buymeacoffee.com/sureshpandiyan">Buy me a coffee</a>
 
 **NO MORE WORRY ABOUT SESSION ID ANYMORE !!**
 
