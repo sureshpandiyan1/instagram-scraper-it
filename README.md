@@ -15,7 +15,6 @@
 The instagram-scraper-it can collect information related to the things like post date, images, etc.
  It's written code in python that will run faster without delay of the start trouble.
 
-<a href='https://ko-fi.com/C0C7FULK9' target='_blank'><img height='50' style='border:0px;height:50px;' src='https://storage.ko-fi.com/cdn/brandasset/kofi_s_tag_white.png?' border='0' alt='support me on ko-fi.com' /></a>
 
 Any stars ⭐ or donations would be appreciated, if you like this instagram-scraper-it :) 
 
